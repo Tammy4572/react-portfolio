@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+     font-size: 16px;
+}
+.navbar {
+     background-color: #01579B;
+     color: #fff;
+     padding-top: 7px;
+}
+.navbar-inverse {
+     width: 100%;
+     background-color: #01579B;
+}
+.navbar-nav {
+     color: #fff;
+     font-size: 25px;
+     padding-left: 35px;
+}
+.glyphicon, .logo {
+     color: #fff;
+}
+a .nav-link {
+     color: #fff;
+}
+.selected  .nav-link{
+  color: #fff;
+  border: 1px solid #ffffff;
+  box-shadow: 1px 2px 2px #000000;
+}
+.co-name {
+     font-family: 'Courgette', monospace;
+     font-size: 28px;
+     color: #014378;
+     background-image: url('../styles/img/header-img.png') no-repeat center center fixed;
+     background-size: cover;
+}
+h1.co-name {
+     display: inline-block;
+     padding-top: 47px;
+}
+.container .text-muted {
+     margin: 10px 0;
+}
+h3, .h3 {
+     color: #01579B;
+     font-size: x-large;
+}
+
+.contact-form {
+     border: 2px solid #007B9A;
+     margin: 0 auto;
+     padding: 10px 40px;
+     width: 80%;
+}
+.jumbotron {
+     font-family: 'Courgette', monospace;
+     font-size: 24px;
+     color: #014378;
+     background-image: url('../styles/img/header-img.png');
+     background-size: cover;
+}
+
+.logo {
+     background-image: url('../styles/img/logo.png');
+     height: 15px;
+     width: 15px;
+}
+.shopping-cart {
+     border: 1px solid #e3e3e3;
+}
+
+.col-lg-4 {
+     margin: 0 10px;
+}
+.col-md-8  {
+     margin-bottom: 50px;
+}
+.product-img {
+     margin: 0 35px;
+}
+/*
+Generic Styling, for Desktops/Laptops
+*/
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+	background: #eee;
+}
+th {
+	background: #0082CA;
+	color: white;
+	font-weight: bold;
+}
+td, th {
+	padding: 6px;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+
+.form-div {
+     margin: 0 auto;
+     text-align: center;
+     text-align: center;
+     width: 40vw;
+     display: inline-flex;
+}
+.page-header {
+     margin-top: 50px;
+}
+.navbar-collapse {
+     list-style-type: none;
+}
+
+footer {
+     postition: relative;
+     /*bottom: -70px;*/
+     height: 50px;
+     margin-top: 70px;
+     width: 100%;
+     background-color: #01579B;
+}
+.footer-div {
+     text-align: center;
+
+}
+.footer-text {
+     color: #fff;
+}
